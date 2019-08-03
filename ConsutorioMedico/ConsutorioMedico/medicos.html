@@ -1,0 +1,104 @@
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<title> Cadastro de Médicos </title>
+</head>
+
+<body>
+
+<form name = "medicos" method = "post" action = "cadastra_medicos.php">
+  <table border = "0" cellpadding = "5" cellspacing = "5">
+  <tr>
+    <td colspan = 2 height = "30" bgcolor = "orange"> <b> Cadastro de Médicos </b> </td>
+  </tr>
+  <tr>
+    <td colspan = 2 height = "30"> <font color = "#0000A0"> <b> Informe seus dados: </b> </font> </td>
+	</tr>
+	<tr>
+	<td width = "25%" height = "30"> Nome: </td>
+	<td height = "30"> <input type = "text" name = "MED_NOME" size = "30"> </td>
+	</tr>
+	<td width = "25%" height = "30"> CRM: </td>
+	<td height = "30"> <input type = "text" name = "MED_CRM" size = "30"> </td>
+	</tr>
+	<tr>
+	<td width = "10%" height = "30"> Cep </td>
+	<td height = "30"> <input type = "text" name = "MED_CEP" size = "30"> </td>
+	</tr>
+	<tr>
+	<td width = "10%" height = "30"> Rua: </td>
+	<td height = "30"> <input type = "text" name = "MED_RUA" size = "30"> </td>
+	</tr>
+	<tr>
+	<td width = "10%" height = "30"> Número </td>
+	<td height = "30"> <input type = "text" name = "MED_NUM" size = "30"> </td>
+	<tr>
+	<td width = "10%" height = "30"> Complemento </td>
+	<td height = "30"> <input type = "text" name = "MED_COM" size = "30"> </td>
+	</tr>
+	</tr>
+	
+	</tr>
+	</tr>
+	<tr>
+	<td width = "10%" height = "30"> Bairro: </td>
+	<td height = "30"> <input type = "text" name = "MED_BAIRRO" size = "30"> </td>
+	</tr>
+	<tr>
+	<td width = "10%" height = "30" class = "login"> Cidade: </td>
+	<td height = "30"> <input type = "text" name = "MED_CIDADE" size = "30"> </td>
+	</tr>
+	<tr>
+	<td width = "10%" height = "30"> Estado: </td>
+	<td height = "30"> <input type = "text" name = "MED_ESTADO" size = "30"> </td>
+	</tr>
+	
+	<tr>
+	<td width = "10%" height = "30" class = "login"> Especialidade: </td>
+	<td height = "30"> 
+	  <select name = "MED_ESPECIALIDADE">
+	    <option value = "Nenhum"> </option>
+	    <option value = "end"> Endócrino </option>
+		<option value = "cli"> Clínico Geral </option>
+		<option value = "ped"> Pediatra </option>
+		<option value = "dermato"> Dermatologista </option>
+		<option value = "otorrino"> Otorrinolaringologista </option>
+		<option value = "uro"> Urologista </option>
+		<option value = "gine"> Ginecologista </option>
+		<option value = "cardio"> Cardiologista </option>
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td width = "10%" height = "30"> E-mail: </td>
+		<td height = "30"> <input type = "text" name = "MED_EMAIL" size = "30"> </td>
+		</tr>
+		
+		<td width = "10%" height = "30"> Horário de entrada: </td>
+		<td height = "30"> <input type = "password" name = "MED_ENTRADA" size = "10"> </td>
+		</tr>
+		<tr>
+		<td width = "10%" height = "30"> Horário de saída: </td>
+		<td height = "30"> <input type = "text" name = "MED_SAIDA" size = "30"> </td>
+		</tr>
+		<tr>
+		<td width = "10%" height = "30"> Login: </td>
+		<td height = "30"> <input type = "text" name = "MED_LOGIN" size = "10"> </td>
+		</tr>
+		<tr>
+		<td width = "10%" height = "30"> Senha: </td>
+		<td height = "30"> <input type = "password" name = "MED_SENHA" size = "10"> </td>
+		</tr>
+		<tr>
+		<tr height = "60" valign = "bottom">
+		<td width = "20%"> </td>
+		<td height = "30" valign = "bottom">
+		<input type = "submit" value = " Cadastrar "> &nbsp;&nbsp;&nbsp;
+		<input type = "reset" value = " Limpar ">
+		</td>
+		</tr>
+		</table>
+		</form> 
+</body>
+</html>
